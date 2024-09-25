@@ -1,10 +1,22 @@
-# Example use of `Math.random` with WebAssembly via `jco`
+# `Math.random` in WebAssembly with `jco`
 
 This repository showcases a basic component built with [`jco`][jco] that performs basic CLI functionality, using `Math.random`.
 
-# Build
+## Setup
 
-To build the project, use:
+> ![NOTE]
+> This project uses `pnpm` but you can use `npm` or `yarn` if you prefer
+
+To install dependencies:
+
+```console
+nvm use # optional, if you're using nvm
+pnpm install
+```
+
+## Build
+
+To build the project, run:
 
 ```console
 pnpm jco componentize -w wit -o test.wasm test.js
@@ -15,9 +27,9 @@ This calls `jco`'s `componentize` functionality (powered by [`componentize-js`][
 > [!INFO]
 > Don't worry if you don't understand the line above, see [What's actually Happening](#whats-actually-happening) for a longer description! 
 
-# Run
+## Run
 
-To run the project
+To run the project:
 
 ```console
 pnpm jco run test.wasm
