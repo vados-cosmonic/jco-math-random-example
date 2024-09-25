@@ -14,6 +14,8 @@ nvm use # optional, if you're using nvm
 pnpm install
 ```
 
+[jco]: https://github.com/bytecodealliance/jco
+
 ## Build
 
 To build the project, run:
