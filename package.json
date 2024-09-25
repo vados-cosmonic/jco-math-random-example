@@ -1,0 +1,7 @@
+{
+  "name": "jco-test",
+  "private": true,
+  "devDependencies": {
+    "@bytecodealliance/jco": "^1.7.0"
+  }
+}
